@@ -26,12 +26,14 @@ function banhammer_admin_notices() {
 			
 			?>
 			
-			<div class="notice notice-success notice-custom">
+			<div class="notice notice-success notice-margin">
 				<p>
-					<strong><?php esc_html_e('Pro Plugin Sale!', 'banhammer'); ?></strong> 
-					<?php esc_html_e('Buy one get one FREE with code', 'banhammer'); ?> <code>BOGO24</code>, 
-					<?php esc_html_e('or take 30% off with code', 'banhammer'); ?> <code>SUPER24</code> 
-					⭐ <a class="notice-link" target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/super-summer-sale/"><?php esc_html_e('Get&nbsp;plugins&nbsp;&raquo;', 'banhammer'); ?></a> 
+					<strong><?php esc_html_e('Fall Sale!', 'banhammer'); ?></strong> 
+					<?php esc_html_e('Take 25% OFF any of our', 'banhammer'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'banhammer'); ?></a> 
+					<?php esc_html_e('and', 'banhammer'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'banhammer'); ?></a>. 
+					<?php esc_html_e('Apply code', 'banhammer'); ?> <code>FALL2024</code> <?php esc_html_e('at checkout. Sale ends 12/21/24.', 'banhammer'); ?> 
 					<?php echo banhammer_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -126,7 +128,7 @@ function banhammer_dismiss_notice_link() {
 
 function banhammer_check_date_expired() {
 	
-	$expires = apply_filters('banhammer_check_date_expired', '2024-09-22');
+	$expires = apply_filters('banhammer_check_date_expired', '2024-12-21');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-28 20:19+0000\n"
+"POT-Creation-Date: 2024-10-17 20:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -176,7 +176,7 @@ msgid ""
 "using a trustworthy proxy service to log in to your site."
 msgstr ""
 
-#: inc/contextual-help.php:221
+#: inc/contextual-help.php:221 inc/settings-reset.php:34
 msgid "and"
 msgstr ""
 
@@ -210,6 +210,10 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
+#: inc/settings-reset.php:36
+msgid "Apply code"
+msgstr ""
+
 #: inc/resources-enqueue.php:159
 msgid "Are you sure?"
 msgstr ""
@@ -224,6 +228,10 @@ msgstr ""
 
 #: inc/armory-display.php:130
 msgid "Ascend"
+msgstr ""
+
+#: inc/settings-reset.php:36
+msgid "at checkout. Sale ends 12/21/24."
 msgstr ""
 
 #: inc/contextual-help.php:96
@@ -386,16 +394,16 @@ msgstr ""
 msgid "book author"
 msgstr ""
 
+#: inc/settings-reset.php:35
+msgid "books"
+msgstr ""
+
 #: inc/armory-display.php:146 inc/tower-display.php:41 inc/tower-display.php:43
 msgid "Bulk Action"
 msgstr ""
 
 #: inc/armory-display.php:101
 msgid "Bulk Action:"
-msgstr ""
-
-#: inc/settings-reset.php:32
-msgid "Buy one get one FREE with code"
 msgstr ""
 
 #: inc/contextual-help.php:530
@@ -567,7 +575,7 @@ msgid ""
 "Page."
 msgstr ""
 
-#: inc/settings-reset.php:121
+#: inc/settings-reset.php:123
 msgid "Dismiss"
 msgstr ""
 
@@ -677,6 +685,10 @@ msgstr ""
 msgid "Experience the next level: Banhammer Pro!"
 msgstr ""
 
+#: inc/settings-reset.php:31
+msgid "Fall Sale!"
+msgstr ""
+
 #: inc/armory-display.php:162
 msgid "Filter:"
 msgstr ""
@@ -708,10 +720,6 @@ msgstr ""
 
 #: inc/armory-ajax.php:660
 msgid "Get Host Name"
-msgstr ""
-
-#: inc/settings-reset.php:34
-msgid "Get&nbsp;plugins&nbsp;&raquo;"
 msgstr ""
 
 #: inc/contextual-help.php:18
@@ -1105,10 +1113,6 @@ msgid ""
 "With Banhammer enabled, visit your site&rsquo;s homepage via proxy. "
 msgstr ""
 
-#: inc/settings-reset.php:33
-msgid "or take 30% off with code"
-msgstr ""
-
 #: inc/armory-display.php:129
 msgid "Order:"
 msgstr ""
@@ -1167,10 +1171,6 @@ msgid ""
 "detection, and much more. "
 msgstr ""
 
-#: inc/settings-reset.php:31
-msgid "Pro Plugin Sale!"
-msgstr ""
-
 #: inc/contextual-help.php:99
 msgid "Pro Tip:"
 msgstr ""
@@ -1184,6 +1184,10 @@ msgstr ""
 msgid ""
 "Pro version of Banhammer currently active. Free and Pro versions cannot be "
 "activated at the same time. "
+msgstr ""
+
+#: inc/settings-reset.php:33
+msgid "Pro WordPress plugins"
 msgstr ""
 
 #: inc/settings-register.php:17
@@ -1484,11 +1488,15 @@ msgstr ""
 msgid "Support Banhammer!"
 msgstr ""
 
-#: inc/settings-reset.php:49
+#: inc/settings-reset.php:32
+msgid "Take 25% OFF any of our"
+msgstr ""
+
+#: inc/settings-reset.php:51
 msgid "Target added to Tower."
 msgstr ""
 
-#: inc/settings-reset.php:53
+#: inc/settings-reset.php:55
 msgid "Target already exists in Tower."
 msgstr ""
 

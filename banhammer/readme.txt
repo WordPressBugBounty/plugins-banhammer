@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.6
-Tested up to: 6.6
-Stable tag: 3.4.3
-Version:    3.4.3
+Tested up to: 6.7
+Stable tag: 3.4.4
+Version:    3.4.4
 Requires PHP: 5.6.20
 Text Domain: banhammer
 Domain Path: /languages
@@ -90,7 +90,7 @@ Banhammer is developed and maintained by [Jeff Starr](https://twitter.com/perish
 
 **Support development**
 
-I develop and maintain this free plugin with love for the WordPress community. To show support, you can [make a donation](https://monzillamedia.com/donate.html) or purchase one of my books:
+I develop and maintain this free plugin with love for the WordPress community. To show support, you can [make a donation](https://monzillamedia.com/donate.html) or purchase one of my books: 
 
 * [The Tao of WordPress](https://wp-tao.com/)
 * [Digging into WordPress](https://digwp.com/)
@@ -326,12 +326,11 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 If you like Banhammer, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/banhammer/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
 
-**3.4.3 (2024/06/28)**
+**3.4.4 (2024/10/17)**
 
-* Fixes bug with `dismiss_notice_link`
 * Updates plugin settings page
 * Updates default translation template
-* Tests on WordPress 6.6 (beta)
+* Tests on WordPress 6.7 (beta)
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/banhammer.txt](https://plugin-planet.com/wp/changelog/banhammer.txt)
