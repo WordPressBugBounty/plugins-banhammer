@@ -54,6 +54,8 @@ function banhammer_cron_intervals($schedules) {
 
 function banhammer_cron_update() {
 	
+	if (!current_user_can('manage_options')) exit;
+	
 	if (isset($_GET['page']) && $_GET['page'] === 'banhammer') {
 		
 		global $BanhammerWP;
