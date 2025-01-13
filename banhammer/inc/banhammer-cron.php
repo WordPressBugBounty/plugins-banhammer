@@ -54,27 +54,29 @@ function banhammer_cron_intervals($schedules) {
 
 function banhammer_cron_update() {
 	
-	if (!current_user_can('manage_options')) exit;
-	
-	if (isset($_GET['page']) && $_GET['page'] === 'banhammer') {
+	if (current_user_can('manage_options')) {
 		
-		global $BanhammerWP;
-		
-		$default = $BanhammerWP->options();
-		
-		$options = get_option('banhammer_settings', $default);
-		
-		$interval = isset($options['reset_interval']) ? $options['reset_interval'] : 'banhammer_one_day';
-		
-		$schedule = wp_get_schedule('banhammer_cron_reset');
-		
-		if ($schedule !== $interval) {
+		if (isset($_GET['page']) && $_GET['page'] === 'banhammer') {
 			
-			$timestamp = wp_next_scheduled('banhammer_cron_reset');
+			global $BanhammerWP;
 			
-			wp_unschedule_event($timestamp, 'banhammer_cron_reset');
+			$default = $BanhammerWP->options();
 			
-			wp_schedule_event(time(), $interval, 'banhammer_cron_reset');
+			$options = get_option('banhammer_settings', $default);
+			
+			$interval = isset($options['reset_interval']) ? $options['reset_interval'] : 'banhammer_one_day';
+			
+			$schedule = wp_get_schedule('banhammer_cron_reset');
+			
+			if ($schedule !== $interval) {
+				
+				$timestamp = wp_next_scheduled('banhammer_cron_reset');
+				
+				wp_unschedule_event($timestamp, 'banhammer_cron_reset');
+				
+				wp_schedule_event(time(), $interval, 'banhammer_cron_reset');
+				
+			}
 			
 		}
 		

@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.6
 Tested up to: 6.7
-Stable tag: 3.4.5
-Version:    3.4.5
+Stable tag: 3.4.6
+Version:    3.4.6
 Requires PHP: 5.6.20
 Text Domain: banhammer
 Domain Path: /languages
@@ -324,6 +324,12 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 == Changelog ==
 
 If you like Banhammer, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/banhammer/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
+
+
+**3.4.6 (2025/01/13)**
+
+* Fixes bug with non-admins unable to log in
+* Tests on WordPress 6.7
 
 
 **3.4.5 (2025/01/10)**

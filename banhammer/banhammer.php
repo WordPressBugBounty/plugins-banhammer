@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.6
 	Tested up to: 6.7
-	Stable tag: 3.4.5
-	Version:    3.4.5
+	Stable tag: 3.4.6
+	Version:    3.4.6
 	Requires PHP: 5.6.20
 	Text Domain: banhammer
 	Domain Path: /languages
@@ -84,7 +84,7 @@ if (!class_exists('BanhammerWP')) {
 		
 		function constants() {
 			
-			if (!defined('BANHAMMER_VERSION')) define('BANHAMMER_VERSION', '3.4.5');
+			if (!defined('BANHAMMER_VERSION')) define('BANHAMMER_VERSION', '3.4.6');
 			if (!defined('BANHAMMER_REQUIRE')) define('BANHAMMER_REQUIRE', '4.6');
 			if (!defined('BANHAMMER_AUTHOR'))  define('BANHAMMER_AUTHOR',  'Jeff Starr');
 			if (!defined('BANHAMMER_NAME'))    define('BANHAMMER_NAME',    __('Banhammer', 'banhammer'));
@@ -350,24 +350,26 @@ if (!class_exists('BanhammerWP')) {
 		
 		function check_version() {
 			
-			if (!current_user_can('manage_options')) exit;
-			
-			$wp_version = get_bloginfo('version');
-			
-			if (isset($_GET['activate']) && $_GET['activate'] == 'true') {
+			if (current_user_can('manage_options')) {
 				
-				if (version_compare($wp_version, BANHAMMER_REQUIRE, '<')) {
+				$wp_version = get_bloginfo('version');
+				
+				if (isset($_GET['activate']) && $_GET['activate'] == 'true') {
 					
-					if (is_plugin_active(BANHAMMER_FILE)) {
+					if (version_compare($wp_version, BANHAMMER_REQUIRE, '<')) {
 						
-						deactivate_plugins(BANHAMMER_FILE);
-						
-						$msg  = '<strong>'. BANHAMMER_NAME .'</strong> '. esc_html__('requires WordPress ', 'banhammer') . BANHAMMER_REQUIRE;
-						$msg .= esc_html__(' or higher, and has been deactivated! ', 'banhammer');
-						$msg .= esc_html__('Please return to the', 'banhammer') .' <a href="'. admin_url() .'">';
-						$msg .= esc_html__('WP Admin Area', 'banhammer') .'</a> '. esc_html__('to upgrade WordPress and try again.', 'banhammer');
-						
-						wp_die($msg);
+						if (is_plugin_active(BANHAMMER_FILE)) {
+							
+							deactivate_plugins(BANHAMMER_FILE);
+							
+							$msg  = '<strong>'. BANHAMMER_NAME .'</strong> '. esc_html__('requires WordPress ', 'banhammer') . BANHAMMER_REQUIRE;
+							$msg .= esc_html__(' or higher, and has been deactivated! ', 'banhammer');
+							$msg .= esc_html__('Please return to the', 'banhammer') .' <a href="'. admin_url() .'">';
+							$msg .= esc_html__('WP Admin Area', 'banhammer') .'</a> '. esc_html__('to upgrade WordPress and try again.', 'banhammer');
+							
+							wp_die($msg);
+							
+						}
 						
 					}
 					
