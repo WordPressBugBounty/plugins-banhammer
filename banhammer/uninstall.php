@@ -6,6 +6,7 @@ delete_option('banhammer_settings');
 delete_option('banhammer_armory');
 delete_option('banhammer_tower');
 delete_option('banhammer_secret_key');
+delete_option('banhammer-dismiss-notice');
 
 $timestamp = wp_next_scheduled('banhammer_cron_reset');
 wp_unschedule_event($timestamp, 'banhammer_cron_reset');

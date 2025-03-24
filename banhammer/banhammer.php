@@ -8,10 +8,10 @@
 	Author URI: https://plugin-planet.com/
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
-	Requires at least: 4.6
-	Tested up to: 6.7
-	Stable tag: 3.4.6
-	Version:    3.4.6
+	Requires at least: 4.7
+	Tested up to: 6.8
+	Stable tag: 3.4.7
+	Version:    3.4.7
 	Requires PHP: 5.6.20
 	Text Domain: banhammer
 	Domain Path: /languages
@@ -32,7 +32,7 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2024 Monzilla Media. All rights reserved.
+	Copyright 2025 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) die();
@@ -46,14 +46,13 @@ if (!class_exists('BanhammerWP')) {
 			$this->constants();
 			$this->includes();
 			
+			register_activation_hook  (__FILE__, array($this, 'check_banhammer'));
 			register_activation_hook  (__FILE__, array($this, 'create_table'));
 			register_activation_hook  (__FILE__, 'banhammer_dismiss_notice_activate');
 			register_activation_hook  (__FILE__, 'banhammer_cron_activation');
 			register_deactivation_hook(__FILE__, 'banhammer_cron_deactivation');
 			
-			add_action('admin_init',                array($this, 'check_banhammer'));
 			add_action('admin_init',                array($this, 'check_version'));
-			add_action('init',                      array($this, 'load_i18n'));
 			add_action('upgrader_process_complete', array($this, 'private_key'),  10, 2);
 			add_filter('plugin_action_links',       array($this, 'action_links'), 10, 2);
 			add_filter('plugin_row_meta',           array($this, 'plugin_links'), 10, 2);
@@ -84,16 +83,16 @@ if (!class_exists('BanhammerWP')) {
 		
 		function constants() {
 			
-			if (!defined('BANHAMMER_VERSION')) define('BANHAMMER_VERSION', '3.4.6');
-			if (!defined('BANHAMMER_REQUIRE')) define('BANHAMMER_REQUIRE', '4.6');
+			if (!defined('BANHAMMER_VERSION')) define('BANHAMMER_VERSION', '3.4.7');
+			if (!defined('BANHAMMER_REQUIRE')) define('BANHAMMER_REQUIRE', '4.7');
 			if (!defined('BANHAMMER_AUTHOR'))  define('BANHAMMER_AUTHOR',  'Jeff Starr');
-			if (!defined('BANHAMMER_NAME'))    define('BANHAMMER_NAME',    __('Banhammer', 'banhammer'));
+			if (!defined('BANHAMMER_NAME'))    define('BANHAMMER_NAME',    'Banhammer');
 			if (!defined('BANHAMMER_HOME'))    define('BANHAMMER_HOME',    esc_url('https://perishablepress.com/banhammer/'));
 			if (!defined('BANHAMMER_URL'))     define('BANHAMMER_URL',     plugin_dir_url(__FILE__));
 			if (!defined('BANHAMMER_DIR'))     define('BANHAMMER_DIR',     plugin_dir_path(__FILE__));
 			if (!defined('BANHAMMER_FILE'))    define('BANHAMMER_FILE',    plugin_basename(__FILE__));
 			if (!defined('BANHAMMER_SLUG'))    define('BANHAMMER_SLUG',    basename(dirname(__FILE__)));
-			if (!defined('BANHAMMER_BLANK'))   define('BANHAMMER_BLANK',   __('[blank]', 'banhammer'));
+			if (!defined('BANHAMMER_BLANK'))   define('BANHAMMER_BLANK',   '[blank]');
 			
 		}
 		
@@ -372,42 +371,6 @@ if (!class_exists('BanhammerWP')) {
 						}
 						
 					}
-					
-				}
-				
-			}
-			
-		}
-		
-		function load_i18n() {
-			
-			$domain = 'banhammer';
-			
-			$locale = apply_filters('banhammer_locale', get_locale(), $domain);
-			
-			$dir    = trailingslashit(WP_LANG_DIR);
-			
-			$file   = $domain .'-'. $locale .'.mo';
-			
-			$path_1 = $dir . $file;
-			
-			$path_2 = $dir . $domain .'/'. $file;
-			
-			$path_3 = $dir .'plugins/'. $file;
-			
-			$path_4 = $dir .'plugins/'. $domain .'/'. $file;
-			
-			$paths = array($path_1, $path_2, $path_3, $path_4);
-			
-			foreach ($paths as $path) {
-				
-				if ($loaded = load_textdomain($domain, $path)) {
-					
-					return $loaded;
-					
-				} else {
-					
-					return load_plugin_textdomain($domain, false, dirname(BANHAMMER_FILE) .'/languages/');
 					
 				}
 				

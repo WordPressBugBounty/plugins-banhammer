@@ -21,11 +21,13 @@ function banhammer_get_help_sidebar() {
 		'<p><strong>'. esc_html__('Follow &amp; Share', 'banhammer') .'</strong></p>'.
 		
 		'<ul>
-			<li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/perishable">Follow on Twitter &raquo;</a></li>
-			<li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text='. rawurlencode('Banhammer! Deluxe traffic control by Jeff Starr.') .'&url=https://wordpress.org/plugins/banhammer/&hashtags=WordPress,security,plugin">Share on Twitter &raquo;</a></li>
-			<li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?quote='. rawurlencode('Banhammer! Deluxe traffic control by Jeff Starr. #WordPress #security #plugin') .'&u='. rawurlencode('https://wordpress.org/plugins/banhammer/') .'">Share on Facebook &raquo;</a></li>
+			<li><a target="_blank" rel="noopener noreferrer" href="https://x.com/perishable">'. esc_html__('Follow on X (Twitter) &raquo;', 'banhammer') .'</a></li>
+			<li><a target="_blank" rel="noopener noreferrer" href="https://x.com/intent/post?text='. rawurlencode('Banhammer: Deluxe traffic control by Jeff Starr @perishable #WordPress #security #plugin') .'&url='. rawurlencode('https://wordpress.org/plugins/banhammer/') .'">'. esc_html__('Share on X (Twitter) &raquo;', 'banhammer') .'</a></li>
+			<li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?quote='. rawurlencode('Banhammer: Deluxe traffic control by Jeff Starr @perishable #WordPress #security #plugin') .'&u='. rawurlencode('https://wordpress.org/plugins/banhammer/') .'">'. esc_html__('Share on Facebook &raquo;', 'banhammer') .'</a></li>
+			<li><a target="_blank" rel="noopener noreferrer" href="https://mastodonshare.com/?text='. rawurlencode('Banhammer: Deluxe traffic control by Jeff Starr @perishable #WordPress #security #plugin') .'&url='. rawurlencode('https://wordpress.org/plugins/banhammer/') .'">'. esc_html__('Share on Mastodon &raquo;', 'banhammer') .'</a></li>
+			<li><a target="_blank" rel="noopener noreferrer" href="https://bsky.app/intent/compose?text='. rawurlencode('Banhammer: Deluxe traffic control by Jeff Starr @perishablepress.com #WordPress #security #plugin https://wordpress.org/plugins/banhammer/') .'">'. esc_html__('Share on Bluesky &raquo;', 'banhammer') .'</a></li>
 		</ul>';
-	
+		
 }
 
 

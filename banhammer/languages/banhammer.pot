@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-17 20:13+0000\n"
+"POT-Creation-Date: 2025-03-24 16:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -18,16 +18,16 @@ msgstr ""
 msgid " (saved)"
 msgstr ""
 
-#: banhammer.php:364
+#: banhammer.php:365
 msgid " or higher, and has been deactivated! "
 msgstr ""
 
-#: inc/contextual-help.php:471
+#: inc/contextual-help.php:473
 msgid ""
 "(double-click) any entry that may need banning. The default is Advanced view."
 msgstr ""
 
-#: inc/contextual-help.php:166
+#: inc/contextual-help.php:168
 msgid "..and much more! There are too many features to list them all :)"
 msgstr ""
 
@@ -35,7 +35,7 @@ msgstr ""
 msgid "12 Hours"
 msgstr ""
 
-#: inc/contextual-help.php:220
+#: inc/contextual-help.php:222
 msgid "15-year"
 msgstr ""
 
@@ -91,11 +91,7 @@ msgstr ""
 msgid "[ undefined ]"
 msgstr ""
 
-#: banhammer.php:96
-msgid "[blank]"
-msgstr ""
-
-#: inc/contextual-help.php:93
+#: inc/contextual-help.php:95
 msgid ""
 "A good way to verify any IP address is to do a reverse lookup. The result "
 "should match the host name. "
@@ -105,27 +101,27 @@ msgstr ""
 msgid "Abort mission"
 msgstr ""
 
-#: inc/contextual-help.php:585
+#: inc/contextual-help.php:587
 msgid "About Actions"
 msgstr ""
 
-#: inc/contextual-help.php:216
+#: inc/contextual-help.php:218
 msgid "About the Developer"
 msgstr ""
 
-#: inc/contextual-help.php:160
+#: inc/contextual-help.php:162
 msgid "Add private notes for any target"
 msgstr ""
 
-#: inc/contextual-help.php:54
+#: inc/contextual-help.php:56
 msgid "Admin Area    - disable"
 msgstr ""
 
-#: inc/contextual-help.php:281
+#: inc/contextual-help.php:283
 msgid "Admin Area &ndash; Protect WP Admin Area"
 msgstr ""
 
-#: inc/contextual-help.php:298
+#: inc/contextual-help.php:300
 msgid "Advanced Settings"
 msgstr ""
 
@@ -137,24 +133,24 @@ msgstr ""
 msgid "Advanced view"
 msgstr ""
 
-#: inc/contextual-help.php:544
+#: inc/contextual-help.php:546
 msgid ""
 "After banning or warning a target, visit the Tower to manage and view the "
 "number of blocked/warned hits."
 msgstr ""
 
-#: inc/contextual-help.php:126
+#: inc/contextual-help.php:128
 msgid "After deleting the Unlock plugin, Banhammer once again will be enabled"
 msgstr ""
 
-#: inc/contextual-help.php:58
+#: inc/contextual-help.php:60
 msgid ""
 "After saving the changes, you will be able to ban your own visits to the "
 "front-end (non-admin) pages on your site, without actually banning yourself "
 "from the Admin Area or Login Page. "
 msgstr ""
 
-#: inc/contextual-help.php:124
+#: inc/contextual-help.php:126
 msgid ""
 "After uploading the plugin, Banhammer will be disabled, so you can log in "
 "and restore access via the Tower"
@@ -164,35 +160,35 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: inc/contextual-help.php:456
+#: inc/contextual-help.php:458
 msgid ""
 "Also, if you happen to know (or host) any good and FREE GeoIP/lookup APIs, "
 "please let me know."
 msgstr ""
 
-#: inc/contextual-help.php:130
+#: inc/contextual-help.php:132
 msgid ""
 "Alternately, if you banned yourself by IP address, you can bypass the ban by "
 "using a trustworthy proxy service to log in to your site."
 msgstr ""
 
-#: inc/contextual-help.php:221 inc/settings-reset.php:34
+#: inc/contextual-help.php:223 inc/settings-reset.php:34
 msgid "and"
 msgstr ""
 
-#: inc/contextual-help.php:487
+#: inc/contextual-help.php:489
 msgid ""
 "And of course, the sound effects can be disabled entirely by clicking "
 "\"Disable sound fx\"."
 msgstr ""
 
-#: inc/contextual-help.php:403
+#: inc/contextual-help.php:405
 msgid ""
 "And remember, everything displayed here in the Armory is temporary, so you "
 "can do no harm. Just be careful about who/what you decide to ban!"
 msgstr ""
 
-#: banhammer.php:341
+#: banhammer.php:340
 msgid "and try again."
 msgstr ""
 
@@ -200,7 +196,7 @@ msgstr ""
 msgid "Anonymous visitor (refresh page to retry geo lookup)"
 msgstr ""
 
-#: inc/contextual-help.php:327
+#: inc/contextual-help.php:329
 msgid ""
 "Any banned items will remain banned and available in the Tower. Here are "
 "some things to consider:"
@@ -222,7 +218,7 @@ msgstr ""
 msgid "Armory"
 msgstr ""
 
-#: inc/contextual-help.php:398
+#: inc/contextual-help.php:400
 msgid "Armory controls"
 msgstr ""
 
@@ -231,10 +227,10 @@ msgid "Ascend"
 msgstr ""
 
 #: inc/settings-reset.php:36
-msgid "at checkout. Sale ends 12/21/24."
+msgid "at checkout. Sale ends 6/25/2025."
 msgstr ""
 
-#: inc/contextual-help.php:96
+#: inc/contextual-help.php:98
 msgid "at Perishable Press."
 msgstr ""
 
@@ -242,19 +238,19 @@ msgstr ""
 msgid "at WordPress.org."
 msgstr ""
 
-#: inc/contextual-help.php:322 inc/contextual-help.php:390
+#: inc/contextual-help.php:324 inc/contextual-help.php:392
 msgid "Auto-Clear Data"
 msgstr ""
 
-#: inc/contextual-help.php:161
+#: inc/contextual-help.php:163
 msgid "Automatic email alerts"
 msgstr ""
 
-#: inc/tower-ajax.php:122 inc/tower-display.php:44 inc/armory-ajax.php:537
+#: inc/armory-ajax.php:537 inc/tower-ajax.php:122 inc/tower-display.php:44
 msgid "Ban"
 msgstr ""
 
-#: inc/contextual-help.php:590
+#: inc/contextual-help.php:592
 msgid ""
 "Ban &ndash; target is flagged with red color and denied access to your site"
 msgstr ""
@@ -268,13 +264,12 @@ msgid "Ban target"
 msgstr ""
 
 #. Name of the plugin
-#: banhammer.php:90 inc/settings-display.php:7 inc/tower-ajax.php:124 
-#: inc/armory-ajax.php:541
+#: inc/armory-ajax.php:541 inc/settings-display.php:7 inc/tower-ajax.php:124
 msgid "Banhammer"
 msgstr ""
 
-#: inc/armory-display.php:35 inc/contextual-help.php:202 
-#: inc/contextual-help.php:375
+#: inc/armory-display.php:35 inc/contextual-help.php:204 
+#: inc/contextual-help.php:377
 msgid "Banhammer Armory"
 msgstr ""
 
@@ -282,17 +277,17 @@ msgstr ""
 msgid "Banhammer Docs"
 msgstr ""
 
-#: inc/contextual-help.php:237
+#: inc/contextual-help.php:239
 msgid "Banhammer enables you to monitor traffic and ban any user or bot. "
 msgstr ""
 
-#: inc/contextual-help.php:194
+#: inc/contextual-help.php:196
 msgid ""
 "Banhammer is a WordPress security plugin that enables you to monitor traffic "
 "and ban any user or bot with a click. "
 msgstr ""
 
-#: inc/contextual-help.php:219
+#: inc/contextual-help.php:221
 msgid "Banhammer is developed by"
 msgstr ""
 
@@ -304,37 +299,37 @@ msgstr ""
 msgid "Banhammer Pro @ Plugin Planet"
 msgstr ""
 
-#: inc/contextual-help.php:148
+#: inc/contextual-help.php:150
 msgid ""
 "Banhammer Pro brings awesome new features like whitelisting, bot detection, "
 "and editable targets. Plus, Banhammer Pro is lightweight, fast, and easy on "
 "resources. "
 msgstr ""
 
-#: inc/contextual-help.php:614
+#: inc/contextual-help.php:616
 msgid "Banhammer provides sound effects for fun. "
 msgstr ""
 
-#: inc/contextual-help.php:284
+#: inc/contextual-help.php:286
 msgid "Banhammer Response"
 msgstr ""
 
-#: inc/settings-display.php:45 inc/contextual-help.php:201
+#: inc/contextual-help.php:203 inc/settings-display.php:45
 msgid "Banhammer Settings"
 msgstr ""
 
-#: inc/contextual-help.php:477
+#: inc/contextual-help.php:479
 msgid ""
 "Banhammer sound effects can be enabled by clicking \"Tools\" and then "
 "\"Enable sound fx\". "
 msgstr ""
 
-#: inc/tower-display.php:11 inc/contextual-help.php:203 
-#: inc/contextual-help.php:519
+#: inc/contextual-help.php:205 inc/contextual-help.php:521 
+#: inc/tower-display.php:11
 msgid "Banhammer Tower"
 msgstr ""
 
-#: inc/contextual-help.php:191
+#: inc/contextual-help.php:193
 msgid "Banhammer: Defend. Protect. Secure."
 msgstr ""
 
@@ -350,7 +345,7 @@ msgstr ""
 msgid "Banned IP Address:"
 msgstr ""
 
-#: inc/contextual-help.php:287
+#: inc/contextual-help.php:289
 msgid ""
 "Banned Response &ndash; For all banned requests, display a message or "
 "redirect to any URL. Options include:"
@@ -360,7 +355,7 @@ msgstr ""
 msgid "Banned WP User:"
 msgstr ""
 
-#: inc/contextual-help.php:275
+#: inc/contextual-help.php:277
 msgid "Basic Settings"
 msgstr ""
 
@@ -368,29 +363,29 @@ msgstr ""
 msgid "Basic view"
 msgstr ""
 
-#: inc/contextual-help.php:468
+#: inc/contextual-help.php:470
 msgid ""
 "Basic view gives you a streamlined summary. Advanced view gives you complete "
 "data for each entry. "
 msgstr ""
 
-#: inc/contextual-help.php:464
+#: inc/contextual-help.php:466
 msgid "Basic View vs. Advanced View"
 msgstr ""
 
-#: inc/contextual-help.php:109
+#: inc/contextual-help.php:111
 msgid ""
 "Be mindful when monitoring traffic; always know your own IP address and WP "
 "username."
 msgstr ""
 
-#: inc/contextual-help.php:311
+#: inc/contextual-help.php:313
 msgid ""
 "Before using the Target Key, remember to click \"Save Changes\" in the "
 "plugin settings. "
 msgstr ""
 
-#: inc/contextual-help.php:221
+#: inc/contextual-help.php:223
 msgid "book author"
 msgstr ""
 
@@ -406,12 +401,12 @@ msgstr ""
 msgid "Bulk Action:"
 msgstr ""
 
-#: inc/contextual-help.php:530
+#: inc/contextual-help.php:532
 msgid "can be restored or deleted only via the Tower"
 msgstr ""
 
-#: inc/settings-display.php:39 inc/contextual-help.php:213 
-#: inc/contextual-help.php:412 inc/contextual-help.php:561
+#: inc/contextual-help.php:215 inc/contextual-help.php:414 
+#: inc/contextual-help.php:563 inc/settings-display.php:39
 msgid "Check out Banhammer Pro"
 msgstr ""
 
@@ -423,7 +418,7 @@ msgstr ""
 msgid "City"
 msgstr ""
 
-#: inc/tower-ajax.php:80 inc/armory-ajax.php:497 inc/armory-ajax.php:632
+#: inc/armory-ajax.php:497 inc/armory-ajax.php:632 inc/tower-ajax.php:80
 msgid "Click for whois lookup"
 msgstr ""
 
@@ -431,11 +426,11 @@ msgstr ""
 msgid "Click here"
 msgstr ""
 
-#: inc/tower-ajax.php:370 inc/contextual-help.php:605
+#: inc/contextual-help.php:607 inc/tower-ajax.php:370
 msgid "click here"
 msgstr ""
 
-#: banhammer.php:296
+#: banhammer.php:295
 msgid "Click here to rate and review this plugin on WordPress.org"
 msgstr ""
 
@@ -447,7 +442,7 @@ msgstr ""
 msgid "Click link for whois"
 msgstr ""
 
-#: inc/tower-ajax.php:94 inc/armory-ajax.php:475
+#: inc/armory-ajax.php:475 inc/tower-ajax.php:94
 msgid "Click to edit user"
 msgstr ""
 
@@ -455,15 +450,15 @@ msgstr ""
 msgid "Complete documentation in the Help tab."
 msgstr ""
 
-#: inc/contextual-help.php:201
+#: inc/contextual-help.php:203
 msgid "Configure options"
 msgstr ""
 
-#: inc/contextual-help.php:48
+#: inc/contextual-help.php:50
 msgid "Configure the following Basic Settings:"
 msgstr ""
 
-#: inc/contextual-help.php:247
+#: inc/contextual-help.php:249
 msgid "Configure the plugin settings as desired"
 msgstr ""
 
@@ -479,7 +474,7 @@ msgstr ""
 msgid "Confirm Reset"
 msgstr ""
 
-#: inc/contextual-help.php:212
+#: inc/contextual-help.php:214
 msgid "Contact the plugin developer"
 msgstr ""
 
@@ -487,13 +482,13 @@ msgstr ""
 msgid "Country"
 msgstr ""
 
-#: inc/contextual-help.php:65
+#: inc/contextual-help.php:67
 msgid ""
 "Create a new WordPress user and log in using a second browser. Then as you "
 "surf around the site, you can monitor and ban the user via the first browser."
 msgstr ""
 
-#: inc/contextual-help.php:312
+#: inc/contextual-help.php:314
 msgid "Currently only IP addresses may be added via this method. "
 msgstr ""
 
@@ -501,11 +496,11 @@ msgstr ""
 msgid "Custom Message"
 msgstr ""
 
-#: inc/contextual-help.php:290
+#: inc/contextual-help.php:292
 msgid "Custom Message &ndash; Display any custom text/markup"
 msgstr ""
 
-#: inc/contextual-help.php:294
+#: inc/contextual-help.php:296
 msgid ""
 "Custom Message &ndash; Specify any text/markup for custom banned message"
 msgstr ""
@@ -526,7 +521,7 @@ msgstr ""
 msgid "Default Message"
 msgstr ""
 
-#: inc/contextual-help.php:289
+#: inc/contextual-help.php:291
 msgid "Default Message &ndash; Display a stylish banned message"
 msgstr ""
 
@@ -538,7 +533,7 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: inc/contextual-help.php:593
+#: inc/contextual-help.php:595
 msgid ""
 "Delete &ndash; target is removed from Tower and allowed access to your site"
 msgstr ""
@@ -555,7 +550,7 @@ msgstr ""
 msgid "Delete item"
 msgstr ""
 
-#: inc/contextual-help.php:553
+#: inc/contextual-help.php:555
 msgid ""
 "Deleting however is final, unless you find the target in the Armory and "
 "warn/ban again."
@@ -569,7 +564,7 @@ msgstr ""
 msgid "Disable sound fx"
 msgstr ""
 
-#: inc/contextual-help.php:110
+#: inc/contextual-help.php:112
 msgid ""
 "Disable the setting \"Login Page\", so you always have access to the Login "
 "Page."
@@ -583,17 +578,17 @@ msgstr ""
 msgid "Display"
 msgstr ""
 
-#: inc/contextual-help.php:156
+#: inc/contextual-help.php:158
 msgid "Display custom banned message for any target"
 msgstr ""
 
-#: inc/contextual-help.php:447
+#: inc/contextual-help.php:449
 msgid ""
 "Displaying more rows requires more server resources, so display fewer rows "
 "if you experience slowness. "
 msgstr ""
 
-#: inc/contextual-help.php:101
+#: inc/contextual-help.php:103
 msgid "Don&rsquo;t ban yourself!"
 msgstr ""
 
@@ -605,7 +600,7 @@ msgstr ""
 msgid "Donate&nbsp;&raquo;"
 msgstr ""
 
-#: inc/contextual-help.php:121
+#: inc/contextual-help.php:123
 msgid "Download the Banhammer Unlock plugin"
 msgstr ""
 
@@ -615,25 +610,25 @@ msgid ""
 "in the free version. Visit the Banhammer Help tab for details."
 msgstr ""
 
-#: inc/contextual-help.php:454
+#: inc/contextual-help.php:456
 msgid ""
 "Due to limitations with free GeoIP-lookup services, the number of visible "
 "Armory rows in the free version of Banhammer is limited to 10. "
 msgstr ""
 
-#: inc/contextual-help.php:385
+#: inc/contextual-help.php:387
 msgid ""
 "Each logged entry provides \"Ban\" and \"Warn\" buttons, enabling you to "
 "warn or ban the target."
 msgstr ""
 
-#: inc/contextual-help.php:384
+#: inc/contextual-help.php:386
 msgid ""
 "Each logged entry provides data about the visit, including IP address and WP "
 "username (if applicable)."
 msgstr ""
 
-#: inc/contextual-help.php:157
+#: inc/contextual-help.php:159
 msgid "Edit/customize targets for greater control"
 msgstr ""
 
@@ -641,11 +636,11 @@ msgstr ""
 msgid "Enable Banhammer"
 msgstr ""
 
-#: inc/contextual-help.php:278
+#: inc/contextual-help.php:280
 msgid "Enable Plugin &ndash; Enable or disable Banhammer"
 msgstr ""
 
-#: inc/contextual-help.php:51
+#: inc/contextual-help.php:53
 msgid "Enable Plugin - enable"
 msgstr ""
 
@@ -653,13 +648,13 @@ msgstr ""
 msgid "Enable sound fx"
 msgstr ""
 
-#: inc/contextual-help.php:111
+#: inc/contextual-help.php:113
 msgid ""
 "Enable the setting \"Ignore Users\", so you always can access the Tower, and "
 "your own visits will not be logged in the Armory."
 msgstr ""
 
-#: inc/contextual-help.php:159
+#: inc/contextual-help.php:161
 msgid "Enable/disable logging with a click"
 msgstr ""
 
@@ -667,26 +662,22 @@ msgstr ""
 msgid "Everything"
 msgstr ""
 
-#: inc/contextual-help.php:551
+#: inc/contextual-help.php:553
 msgid "Everything is designed to be as intuitive as possible. "
 msgstr ""
 
-#: inc/contextual-help.php:402
+#: inc/contextual-help.php:404
 msgid ""
 "Everything is designed to be as intuitive as possible. Spend a few minutes "
 "playing around to get a better idea of how everything works. "
 msgstr ""
 
-#: banhammer.php:162
+#: banhammer.php:161
 msgid "EXAMPLE ONLY: NOT A REAL IP ADDRESS!"
 msgstr ""
 
-#: inc/contextual-help.php:145
+#: inc/contextual-help.php:147
 msgid "Experience the next level: Banhammer Pro!"
-msgstr ""
-
-#: inc/settings-reset.php:31
-msgid "Fall Sale!"
 msgstr ""
 
 #: inc/armory-display.php:162
@@ -697,20 +688,24 @@ msgstr ""
 msgid "Follow &amp; Share"
 msgstr ""
 
-#: inc/contextual-help.php:94
+#: inc/contextual-help.php:24
+msgid "Follow on X (Twitter) &raquo;"
+msgstr ""
+
+#: inc/contextual-help.php:96
 msgid "For an example of how to verify a bot, check out"
 msgstr ""
 
-#: inc/contextual-help.php:608
+#: inc/contextual-help.php:610
 msgid ""
 "For best performance, it is best to delete the example item when not needed."
 msgstr ""
 
-#: inc/contextual-help.php:618
+#: inc/contextual-help.php:620
 msgid "For more information, visit the Help tab in the Armory (Notes section)."
 msgstr ""
 
-#: banhammer.php:271
+#: banhammer.php:270
 msgid "Get Banhammer Pro!"
 msgstr ""
 
@@ -726,11 +721,11 @@ msgstr ""
 msgid "Give 5&#10025; Rating&nbsp;&raquo;"
 msgstr ""
 
-#: inc/tower-ajax.php:129 inc/armory-ajax.php:547
+#: inc/armory-ajax.php:547 inc/tower-ajax.php:129
 msgid "Gjallarhorn"
 msgstr ""
 
-#: banhammer.php:272
+#: banhammer.php:271
 msgid "Go&nbsp;Pro"
 msgstr ""
 
@@ -738,19 +733,19 @@ msgstr ""
 msgid "Help keep Banhammer going strong! A huge THANK YOU for your support!"
 msgstr ""
 
-#: inc/contextual-help.php:587
+#: inc/contextual-help.php:589
 msgid "Here in the Tower, there are four types of actions (buttons):"
 msgstr ""
 
-#: inc/contextual-help.php:244
+#: inc/contextual-help.php:246
 msgid "Here is an overview of how to use the plugin:"
 msgstr ""
 
-#: inc/contextual-help.php:523
+#: inc/contextual-help.php:525
 msgid "Here you can manage all targets. Each target:"
 msgstr ""
 
-#: inc/contextual-help.php:378
+#: inc/contextual-help.php:380
 msgid ""
 "Here you can monitor traffic and drop the banhammer on any unwanted users or "
 "bots."
@@ -760,7 +755,7 @@ msgstr ""
 msgid "Hits"
 msgstr ""
 
-#: banhammer.php:291
+#: banhammer.php:290
 msgid "Homepage"
 msgstr ""
 
@@ -772,17 +767,17 @@ msgstr ""
 msgid "Host Name"
 msgstr ""
 
-#: inc/contextual-help.php:42
+#: inc/contextual-help.php:44
 msgid ""
 "How do you know if the plugin is working? Like if you want to customize the "
 "banned response? "
 msgstr ""
 
-#: inc/contextual-help.php:380 inc/contextual-help.php:538
+#: inc/contextual-help.php:382 inc/contextual-help.php:540
 msgid "How it works"
 msgstr ""
 
-#: inc/contextual-help.php:242
+#: inc/contextual-help.php:244
 msgid "How to use Banhammer"
 msgstr ""
 
@@ -802,19 +797,19 @@ msgstr ""
 msgid "ID: "
 msgstr ""
 
-#: inc/contextual-help.php:333
+#: inc/contextual-help.php:335
 msgid "If in doubt, go with the default and adjust if/when needed"
 msgstr ""
 
-#: inc/contextual-help.php:123
+#: inc/contextual-help.php:125
 msgid "If the mu-plugins directory does not exist, go ahead and create it"
 msgstr ""
 
-#: inc/contextual-help.php:604
+#: inc/contextual-help.php:606
 msgid "If there are no items displayed in the Tower, you can"
 msgstr ""
 
-#: inc/contextual-help.php:486
+#: inc/contextual-help.php:488
 msgid "If you are able to contribute better effects, please let me know. "
 msgstr ""
 
@@ -822,35 +817,35 @@ msgstr ""
 msgid "Ignore logged-in users"
 msgstr ""
 
-#: inc/contextual-help.php:52
+#: inc/contextual-help.php:54
 msgid "Ignore Users  - disable"
 msgstr ""
 
-#: inc/contextual-help.php:279
+#: inc/contextual-help.php:281
 msgid "Ignore Users &ndash; Ignore logged-in users"
 msgstr ""
 
-#: inc/contextual-help.php:87
+#: inc/contextual-help.php:89
 msgid "Important"
 msgstr ""
 
-#: inc/contextual-help.php:320
+#: inc/contextual-help.php:322
 msgid "Important! Never share your Target Key, always keep it secret."
 msgstr ""
 
-#: inc/contextual-help.php:542
+#: inc/contextual-help.php:544
 msgid ""
 "In the Armory, each logged entry provides \"Ban\" and \"Warn\" buttons, "
 "enabling you to warn or ban the target."
 msgstr ""
 
-#: inc/contextual-help.php:99
+#: inc/contextual-help.php:101
 msgid ""
 "In the Armory, you can click on the IP Address or Host Name to do a quick "
 "whois lookup."
 msgstr ""
 
-#: inc/contextual-help.php:617
+#: inc/contextual-help.php:619
 msgid ""
 "In the Tower, this includes the Ban, Warn, Restore, and Delete buttons. "
 msgstr ""
@@ -859,13 +854,13 @@ msgstr ""
 msgid "Increase site security by blocking unwanted visitors."
 msgstr ""
 
-#: inc/contextual-help.php:195
+#: inc/contextual-help.php:197
 msgid ""
 "Increase site security by blocking unwanted visitors. Banhammer is "
 "lightweight, fast, and easy on resources."
 msgstr ""
 
-#: inc/contextual-help.php:189
+#: inc/contextual-help.php:191
 msgid "Introduction"
 msgstr ""
 
@@ -873,16 +868,16 @@ msgstr ""
 msgid "Invalid IP Address"
 msgstr ""
 
-#: inc/tower-ajax.php:78 inc/tower-display.php:61 inc/armory-ajax.php:442 
-#: inc/armory-ajax.php:495 inc/armory-ajax.php:778
+#: inc/armory-ajax.php:442 inc/armory-ajax.php:495 inc/armory-ajax.php:778 
+#: inc/tower-ajax.php:78 inc/tower-display.php:61
 msgid "IP Address"
 msgstr ""
 
-#: inc/contextual-help.php:529
+#: inc/contextual-help.php:531
 msgid "is unique and appears only once in the Tower"
 msgstr ""
 
-#: inc/contextual-help.php:394
+#: inc/contextual-help.php:396
 msgid ""
 "It will be cleared automatically at regular intervals to help optimize "
 "performance. "
@@ -895,24 +890,24 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin
-#: inc/contextual-help.php:219
+#: inc/contextual-help.php:221
 msgid "Jeff Starr"
 msgstr ""
 
-#: inc/contextual-help.php:59
+#: inc/contextual-help.php:61
 msgid ""
 "Just remember to restore access via the Tower when you are finished testing."
 msgstr ""
 
-#: inc/contextual-help.php:168
+#: inc/contextual-help.php:170
 msgid "Learn more &amp; get Banhammer Pro at Plugin Planet&nbsp;&raquo;"
 msgstr ""
 
-#: banhammer.php:315
+#: banhammer.php:314
 msgid "Like Banhammer? Give it a"
 msgstr ""
 
-#: inc/contextual-help.php:601
+#: inc/contextual-help.php:603
 msgid "Load an Example"
 msgstr ""
 
@@ -928,15 +923,15 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: inc/contextual-help.php:53
+#: inc/contextual-help.php:55
 msgid "Login Page    - disable"
 msgstr ""
 
-#: inc/contextual-help.php:280
+#: inc/contextual-help.php:282
 msgid "Login Page &ndash; Protect the WP Login Page"
 msgstr ""
 
-#: inc/contextual-help.php:203
+#: inc/contextual-help.php:205
 msgid "Manage banned targets"
 msgstr ""
 
@@ -944,11 +939,11 @@ msgstr ""
 msgid "Manage in Tower"
 msgstr ""
 
-#: inc/contextual-help.php:527
+#: inc/contextual-help.php:529
 msgid "may be a WP user or an IP address"
 msgstr ""
 
-#: inc/contextual-help.php:528
+#: inc/contextual-help.php:530
 msgid "may be banned, warned, or restored"
 msgstr ""
 
@@ -956,19 +951,19 @@ msgstr ""
 msgid "Method"
 msgstr ""
 
-#: inc/contextual-help.php:46
+#: inc/contextual-help.php:48
 msgid "Method One (easiest)"
 msgstr ""
 
-#: inc/contextual-help.php:68
+#: inc/contextual-help.php:70
 msgid "Method Three (advanced)"
 msgstr ""
 
-#: inc/contextual-help.php:62
+#: inc/contextual-help.php:64
 msgid "Method Two (moderate)"
 msgstr ""
 
-#: inc/contextual-help.php:202
+#: inc/contextual-help.php:204
 msgid "Monitor site traffic"
 msgstr ""
 
@@ -984,7 +979,7 @@ msgstr ""
 msgid "More Information"
 msgstr ""
 
-#: inc/contextual-help.php:526
+#: inc/contextual-help.php:528
 msgid "must be added via the Armory"
 msgstr ""
 
@@ -1013,71 +1008,71 @@ msgstr ""
 msgid "No, abort mission."
 msgstr ""
 
-#: inc/contextual-help.php:535
+#: inc/contextual-help.php:537
 msgid ""
 "Note that each target shows the number of banned, warned, or restored hits "
 "(center column). See the Notes tab for more details."
 msgstr ""
 
-#: inc/contextual-help.php:481
+#: inc/contextual-help.php:483
 msgid "Note that enabling sound fx in the Armory applies to the Tower as well."
 msgstr ""
 
-#: inc/contextual-help.php:262
+#: inc/contextual-help.php:264
 msgid ""
 "Note that further information is available in the Armory and Tower Help tabs."
 msgstr ""
 
-#: inc/contextual-help.php:552
+#: inc/contextual-help.php:554
 msgid ""
 "Note that it is totally fine to ban, warn, and restore any item as often as "
 "desired. "
 msgstr ""
 
-#: inc/contextual-help.php:607
+#: inc/contextual-help.php:609
 msgid ""
 "Note that the IP address is not real, so feel free to ban, warn, restore, "
 "and delete as desired. "
 msgstr ""
 
-#: inc/contextual-help.php:409
+#: inc/contextual-help.php:411
 msgid "Note that the Pro version gives you a better Armory experience. "
 msgstr ""
 
-#: inc/contextual-help.php:559
+#: inc/contextual-help.php:561
 msgid "Note that the Pro version provides a much better Tower experience. "
 msgstr ""
 
-#: inc/contextual-help.php:485
+#: inc/contextual-help.php:487
 msgid ""
 "Note that the sound effects are a work in progress. Finding quality open "
 "source audio is challenging. "
 msgstr ""
 
-#: inc/contextual-help.php:469
+#: inc/contextual-help.php:471
 msgid ""
 "Note that you can toggle each entry individually between Basic and Advanced. "
 msgstr ""
 
-#: inc/contextual-help.php:435 inc/contextual-help.php:584
+#: inc/contextual-help.php:437 inc/contextual-help.php:586
 msgid "Notes"
 msgstr ""
 
-#: inc/contextual-help.php:490
+#: inc/contextual-help.php:492
 msgid "Now, on to battle!"
 msgstr ""
 
-#: inc/armory-display.php:109 inc/tower-ajax.php:346 inc/armory-ajax.php:860
+#: inc/armory-ajax.php:860 inc/armory-display.php:109 inc/tower-ajax.php:346
 msgid "of"
 msgstr ""
 
-#: inc/contextual-help.php:239
+#: inc/contextual-help.php:241
 msgid ""
 "Once you have banned something, it will be locked in the Tower, where you "
 "can manage all banned users and bots."
 msgstr ""
 
-#: inc/contextual-help.php:125
+#: inc/contextual-help.php:127
 msgid ""
 "Once you have restored access, delete the Banhammer Unlock plugin from the "
 "server"
@@ -1107,7 +1102,7 @@ msgstr ""
 msgid "One Year"
 msgstr ""
 
-#: inc/contextual-help.php:71
+#: inc/contextual-help.php:73
 msgid ""
 "Open two browser tabs. Tab 1 is the Armory. Tab 2 is a good proxy service. "
 "With Banhammer enabled, visit your site&rsquo;s homepage via proxy. "
@@ -1117,39 +1112,39 @@ msgstr ""
 msgid "Order:"
 msgstr ""
 
-#: inc/contextual-help.php:232
+#: inc/contextual-help.php:234
 msgid "Overview"
 msgstr ""
 
-#: inc/contextual-help.php:436
+#: inc/contextual-help.php:438
 msgid "Performance Tip!"
 msgstr ""
 
-#: inc/contextual-help.php:91
+#: inc/contextual-help.php:93
 msgid ""
 "Please be careful not to ban any important IP addresses. Before banning some "
 "target, verify the IP and host name. "
 msgstr ""
 
-#: inc/contextual-help.php:104
+#: inc/contextual-help.php:106
 msgid "Please be careful not to ban yourself when using Banhammer. "
 msgstr ""
 
-#: banhammer.php:339 banhammer.php:365
+#: banhammer.php:338 banhammer.php:366
 msgid "Please return to the"
 msgstr ""
 
-#: inc/contextual-help.php:393
+#: inc/contextual-help.php:395
 msgid ""
 "Please understand that all of the data that is displayed in the Armory is "
 "temporary. "
 msgstr ""
 
-#: banhammer.php:290
+#: banhammer.php:289
 msgid "Plugin Homepage"
 msgstr ""
 
-#: inc/contextual-help.php:411
+#: inc/contextual-help.php:413
 msgid ""
 "Plus you have more control to ban targets based on IP address, WP user, user "
 "agent, referrer, and request URI. "
@@ -1159,28 +1154,28 @@ msgstr ""
 msgid "Prev"
 msgstr ""
 
-#: inc/contextual-help.php:560
+#: inc/contextual-help.php:562
 msgid ""
 "Pro gets you things like paged results, editable targets, private notes, and "
 "custom ban messages. "
 msgstr ""
 
-#: inc/contextual-help.php:410
+#: inc/contextual-help.php:412
 msgid ""
 "Pro gets you things like private notes, custom ban messages, smart bot "
 "detection, and much more. "
 msgstr ""
 
-#: inc/contextual-help.php:99
+#: inc/contextual-help.php:101
 msgid "Pro Tip:"
 msgstr ""
 
-#: inc/contextual-help.php:144 inc/contextual-help.php:406 
-#: inc/contextual-help.php:556
+#: inc/contextual-help.php:146 inc/contextual-help.php:408 
+#: inc/contextual-help.php:558
 msgid "Pro Version"
 msgstr ""
 
-#: banhammer.php:337
+#: banhammer.php:336
 msgid ""
 "Pro version of Banhammer currently active. Free and Pro versions cannot be "
 "activated at the same time. "
@@ -1218,11 +1213,11 @@ msgstr ""
 msgid "Proxy:"
 msgstr ""
 
-#: inc/contextual-help.php:198
+#: inc/contextual-help.php:200
 msgid "Quick Tour"
 msgstr ""
 
-#: banhammer.php:297
+#: banhammer.php:296
 msgid "Rate this plugin"
 msgstr ""
 
@@ -1230,11 +1225,11 @@ msgstr ""
 msgid "Redirect"
 msgstr ""
 
-#: inc/contextual-help.php:291
+#: inc/contextual-help.php:293
 msgid "Redirect &ndash; Redirect the request to any URL"
 msgstr ""
 
-#: inc/contextual-help.php:295
+#: inc/contextual-help.php:297
 msgid "Redirect URL &ndash; Specify any valid URL for banned redirects"
 msgstr ""
 
@@ -1262,19 +1257,19 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: inc/contextual-help.php:73
+#: inc/contextual-help.php:75
 msgid ""
 "Remember to restore access or delete the banned IP via the Tower when "
 "finished testing."
 msgstr ""
 
-#: inc/contextual-help.php:326
+#: inc/contextual-help.php:328
 msgid ""
 "Remember, all Armory data is temporary. Clearing the Armory at a regular "
 "interval is important for performance. "
 msgstr ""
 
-#: inc/contextual-help.php:318
+#: inc/contextual-help.php:320
 msgid ""
 "Replace [IP] with the IP you want to add, and replace [KEY] with your Target "
 "Key."
@@ -1288,20 +1283,20 @@ msgstr ""
 msgid "Request Method"
 msgstr ""
 
-#: banhammer.php:363
+#: banhammer.php:364
 msgid "requires WordPress "
 msgstr ""
 
-#: inc/armory-display.php:148 inc/armory-ajax.php:848
+#: inc/armory-ajax.php:848 inc/armory-display.php:148
 msgid "Reset"
 msgstr ""
 
-#: inc/contextual-help.php:303
+#: inc/contextual-help.php:305
 msgid ""
 "Reset Armory &ndash; Time interval to auto-clear Armory (default: One Day)"
 msgstr ""
 
-#: inc/contextual-help.php:304
+#: inc/contextual-help.php:306
 msgid "Reset Options &ndash; Restore default plugin options"
 msgstr ""
 
@@ -1317,7 +1312,7 @@ msgstr ""
 msgid "Restore"
 msgstr ""
 
-#: inc/contextual-help.php:592
+#: inc/contextual-help.php:594
 msgid ""
 "Restore &ndash; target is flagged with grey color and allowed access to your "
 "site"
@@ -1343,7 +1338,7 @@ msgstr ""
 msgid "Restored"
 msgstr ""
 
-#: inc/contextual-help.php:451
+#: inc/contextual-help.php:453
 msgid "Row Limits"
 msgstr ""
 
@@ -1363,11 +1358,11 @@ msgstr ""
 msgid "Select all"
 msgstr ""
 
-#: inc/tower-ajax.php:112 inc/armory-ajax.php:432
+#: inc/armory-ajax.php:432 inc/tower-ajax.php:112
 msgid "Select for bulk action"
 msgstr ""
 
-#: inc/contextual-help.php:163
+#: inc/contextual-help.php:165
 msgid "Self-ban safety net"
 msgstr ""
 
@@ -1375,9 +1370,25 @@ msgstr ""
 msgid "Server Response"
 msgstr ""
 
-#: banhammer.php:262 inc/settings-display.php:13 inc/settings-display.php:13 
-#: inc/contextual-help.php:273
+#: banhammer.php:261 inc/contextual-help.php:275 inc/settings-display.php:13 
+#: inc/settings-display.php:13
 msgid "Settings"
+msgstr ""
+
+#: inc/contextual-help.php:28
+msgid "Share on Bluesky &raquo;"
+msgstr ""
+
+#: inc/contextual-help.php:26
+msgid "Share on Facebook &raquo;"
+msgstr ""
+
+#: inc/contextual-help.php:27
+msgid "Share on Mastodon &raquo;"
+msgstr ""
+
+#: inc/contextual-help.php:25
+msgid "Share on X (Twitter) &raquo;"
 msgstr ""
 
 #: inc/settings-register.php:30
@@ -1392,11 +1403,11 @@ msgstr ""
 msgid "Show support with a small donation&nbsp;&raquo;"
 msgstr ""
 
-#: inc/contextual-help.php:331
+#: inc/contextual-help.php:333
 msgid "Sites with less traffic are fine with longer time intervals"
 msgstr ""
 
-#: inc/contextual-help.php:332
+#: inc/contextual-help.php:334
 msgid "Sites with more traffic should choose a shorter time interval"
 msgstr ""
 
@@ -1408,38 +1419,38 @@ msgstr ""
 msgid "Skjold"
 msgstr ""
 
-#: inc/contextual-help.php:162
+#: inc/contextual-help.php:164
 msgid "Smart bot detection"
 msgstr ""
 
-#: inc/contextual-help.php:440
+#: inc/contextual-help.php:442
 msgid ""
 "So as you navigate pages, you may notice that pages containing new entries "
 "take a bit more time to load. "
 msgstr ""
 
-#: inc/contextual-help.php:534
+#: inc/contextual-help.php:536
 msgid ""
 "So for example, after banning a target via the Armory, you can visit the "
 "Tower to restore access or change status to warning. "
 msgstr ""
 
-#: inc/contextual-help.php:470
+#: inc/contextual-help.php:472
 msgid ""
 "So for example, you can monitor traffic in Basic view, and then toggle open "
 msgstr ""
 
-#: inc/contextual-help.php:445
+#: inc/contextual-help.php:447
 msgid ""
 "So with that in mind, it is optimal for performance to keep the number of "
 "items per page to a minimum. "
 msgstr ""
 
-#: inc/contextual-help.php:252
+#: inc/contextual-help.php:254
 msgid "Some general notes"
 msgstr ""
 
-#: banhammer.php:416 banhammer.php:422
+#: banhammer.php:383 banhammer.php:389
 msgid "Sorry, pal!"
 msgstr ""
 
@@ -1451,15 +1462,19 @@ msgstr ""
 msgid "Sort by:"
 msgstr ""
 
-#: inc/contextual-help.php:474 inc/contextual-help.php:611
+#: inc/contextual-help.php:476 inc/contextual-help.php:613
 msgid "Sound Effects!"
+msgstr ""
+
+#: inc/settings-reset.php:31
+msgid "Spring Sale!"
 msgstr ""
 
 #: inc/armory-ajax.php:769
 msgid "Status"
 msgstr ""
 
-#: inc/contextual-help.php:302
+#: inc/contextual-help.php:304
 msgid ""
 "Status Code &ndash; Select a status code for banned responses (default: 403)"
 msgstr ""
@@ -1480,7 +1495,7 @@ msgstr ""
 msgid "Status: "
 msgstr ""
 
-#: inc/contextual-help.php:441
+#: inc/contextual-help.php:443
 msgid "Subsequent views should be nice and speedy via Ajax."
 msgstr ""
 
@@ -1489,7 +1504,7 @@ msgid "Support Banhammer!"
 msgstr ""
 
 #: inc/settings-reset.php:32
-msgid "Take 25% OFF any of our"
+msgid "Take 30% OFF any of our"
 msgstr ""
 
 #: inc/settings-reset.php:51
@@ -1500,15 +1515,15 @@ msgstr ""
 msgid "Target already exists in Tower."
 msgstr ""
 
-#: inc/contextual-help.php:154
+#: inc/contextual-help.php:156
 msgid "Target by IP, UA, user, request, or referrer"
 msgstr ""
 
-#: inc/contextual-help.php:307
+#: inc/contextual-help.php:309
 msgid "Target Key"
 msgstr ""
 
-#: inc/contextual-help.php:301
+#: inc/contextual-help.php:303
 msgid ""
 "Target Key &ndash; May be used to manually add targets (see below for info)"
 msgstr ""
@@ -1521,11 +1536,11 @@ msgstr ""
 msgid "Target: WP User"
 msgstr ""
 
-#: inc/contextual-help.php:38
+#: inc/contextual-help.php:40
 msgid "Testing"
 msgstr ""
 
-#: inc/contextual-help.php:39
+#: inc/contextual-help.php:41
 msgid "Testing Banhammer"
 msgstr ""
 
@@ -1533,87 +1548,87 @@ msgstr ""
 msgid "Thanks for using Banhammer. May it serve you well."
 msgstr ""
 
-#: inc/contextual-help.php:325
+#: inc/contextual-help.php:327
 msgid ""
 "The \"Reset Armory\" setting tells Banhammer when to flush all data in the "
 "Armory. "
 msgstr ""
 
-#: inc/contextual-help.php:310
+#: inc/contextual-help.php:312
 msgid "The \"Target Key\" may be used to manually add targets to Tower. "
 msgstr ""
 
-#: inc/contextual-help.php:597
+#: inc/contextual-help.php:599
 msgid ""
 "The \"target\" may be either a WP user or IP address. Banned targets will be "
 "redirected or served the Banhammer response. "
 msgstr ""
 
-#: inc/contextual-help.php:257
+#: inc/contextual-help.php:259
 msgid "The Armory is a temporary snapshot of current traffic"
 msgstr ""
 
-#: inc/contextual-help.php:480
+#: inc/contextual-help.php:482
 msgid "The Armory provides Ban and Warn buttons. The Tower provides all four. "
 msgstr ""
 
-#: inc/contextual-help.php:401
+#: inc/contextual-help.php:403
 msgid "The Armory provides numerous controls for navigating and sorting data. "
 msgstr ""
 
-#: inc/contextual-help.php:105
+#: inc/contextual-help.php:107
 msgid ""
 "The Basic Settings are powerful; use them wisely. Here are some things that "
 "can help mitigate any accidents:"
 msgstr ""
 
-#: inc/contextual-help.php:439
+#: inc/contextual-help.php:441
 msgid ""
 "The first time a logged entry is displayed in the Armory, additional data "
 "are fetched behind the scenes. "
 msgstr ""
 
-#: inc/contextual-help.php:149
+#: inc/contextual-help.php:151
 msgid "The Pro version gives you some awesome new features:"
 msgstr ""
 
-#: inc/contextual-help.php:455
+#: inc/contextual-help.php:457
 msgid ""
 "The Pro version of Banhammer is limited to 50 rows. Unfortunately limits are "
 "necessary to help prevent abuse. "
 msgstr ""
 
-#: inc/contextual-help.php:543
+#: inc/contextual-help.php:545
 msgid ""
 "The target will be either the IP address or the WP username (if applicable), "
 "which you can select via the \"Target\" menu."
 msgstr ""
 
-#: inc/contextual-help.php:386
+#: inc/contextual-help.php:388
 msgid ""
 "The target will be either the IP address or the WP username, which you can "
 "select via the \"Target\" menu."
 msgstr ""
 
-#: inc/contextual-help.php:258
+#: inc/contextual-help.php:260
 msgid "The Tower is a permanent record of all banned items"
 msgstr ""
 
-#: inc/contextual-help.php:550
+#: inc/contextual-help.php:552
 msgid "The Tower provides numerous controls for managing and sorting data. "
 msgstr ""
 
-#: inc/contextual-help.php:72
+#: inc/contextual-help.php:74
 msgid ""
 "Then jump over to the Armory and ban the proxy IP address. Then retry the "
 "proxy visit to the homepage; it should be denied access. "
 msgstr ""
 
-#: inc/contextual-help.php:95
+#: inc/contextual-help.php:97
 msgid "this article"
 msgstr ""
 
-#: inc/contextual-help.php:479
+#: inc/contextual-help.php:481
 msgid "This includes the Ban, Warn, Restore, and Delete buttons. "
 msgstr ""
 
@@ -1621,37 +1636,37 @@ msgstr ""
 msgid "Time interval to auto-clear Armory"
 msgstr ""
 
-#: inc/contextual-help.php:460
+#: inc/contextual-help.php:462
 msgid "Tip:"
 msgstr ""
 
-#: inc/contextual-help.php:313
+#: inc/contextual-help.php:315
 msgid "To add an IP, request the following URL via your browser address bar:"
 msgstr ""
 
-#: inc/contextual-help.php:541
+#: inc/contextual-help.php:543
 msgid "To ban or warn a target and add it to the Tower, visit the Armory."
 msgstr ""
 
-#: inc/contextual-help.php:448
+#: inc/contextual-help.php:450
 msgid ""
 "To change the number of entries displayed per page, click \"Tools\" and go "
 "to \"Display [x] rows\"."
 msgstr ""
 
-#: inc/contextual-help.php:461
+#: inc/contextual-help.php:463
 msgid ""
 "To change the Row Limit, enter a number and then press the Enter key on your "
 "keyboard."
 msgstr ""
 
-#: inc/contextual-help.php:598
+#: inc/contextual-help.php:600
 msgid ""
 "To customize the response, visit the settings, \"Banned Response\" and "
 "\"Status Code\"."
 msgstr ""
 
-#: inc/contextual-help.php:615
+#: inc/contextual-help.php:617
 msgid "To enable, visit the Armory &gt; Tools &gt; \"Enable sound fx\". "
 msgstr ""
 
@@ -1659,7 +1674,7 @@ msgstr ""
 msgid "to load an example."
 msgstr ""
 
-#: inc/contextual-help.php:606
+#: inc/contextual-help.php:608
 msgid ""
 "to load an example. That will load an IP address that has \"warned\" status. "
 msgstr ""
@@ -1672,11 +1687,11 @@ msgstr ""
 msgid "to monitor traffic and ban some enemies. Or"
 msgstr ""
 
-#: banhammer.php:366
+#: banhammer.php:367
 msgid "to upgrade WordPress and try again."
 msgstr ""
 
-#: inc/contextual-help.php:238
+#: inc/contextual-help.php:240
 msgid ""
 "To view your site&rsquo;s traffic, visit the Armory. There you can ban or "
 "warn (flag) anything you wish. "
@@ -1690,15 +1705,15 @@ msgstr ""
 msgid "Tower"
 msgstr ""
 
-#: inc/contextual-help.php:547
+#: inc/contextual-help.php:549
 msgid "Tower Controls"
 msgstr ""
 
-#: inc/contextual-help.php:446
+#: inc/contextual-help.php:448
 msgid "Try to keep it anywhere under 10 or so and you should be good. "
 msgstr ""
 
-#: inc/contextual-help.php:254
+#: inc/contextual-help.php:256
 msgid "Two important points to understand:"
 msgstr ""
 
@@ -1706,7 +1721,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: inc/contextual-help.php:467
+#: inc/contextual-help.php:469
 msgid ""
 "Under the Tools menu you can toggle between \"Basic view\" and \"Advanced "
 "view\". "
@@ -1716,7 +1731,7 @@ msgstr ""
 msgid "Unknown: "
 msgstr ""
 
-#: inc/contextual-help.php:122
+#: inc/contextual-help.php:124
 msgid "Upload the Unlock plugin to your server at:"
 msgstr ""
 
@@ -1724,7 +1739,7 @@ msgstr ""
 msgid "Use maximum value"
 msgstr ""
 
-#: inc/contextual-help.php:206
+#: inc/contextual-help.php:208
 msgid "Useful Resources"
 msgstr ""
 
@@ -1740,7 +1755,7 @@ msgstr ""
 msgid "User Agent:"
 msgstr ""
 
-#: inc/contextual-help.php:92
+#: inc/contextual-help.php:94
 msgid ""
 "Verifying the IP address is important because you do not want to "
 "accidentally ban major search engines and services. "
@@ -1750,11 +1765,11 @@ msgstr ""
 msgid "via"
 msgstr ""
 
-#: inc/contextual-help.php:158
+#: inc/contextual-help.php:160
 msgid "View advanced data like POST and FILES"
 msgstr ""
 
-#: inc/contextual-help.php:209
+#: inc/contextual-help.php:211
 msgid "View the plugin readme.txt file"
 msgstr ""
 
@@ -1762,29 +1777,29 @@ msgstr ""
 msgid "Viewing"
 msgstr ""
 
-#: inc/tower-ajax.php:364 inc/contextual-help.php:10
+#: inc/contextual-help.php:10 inc/tower-ajax.php:364
 msgid "Visit the"
 msgstr ""
 
-#: inc/contextual-help.php:248
+#: inc/contextual-help.php:250
 msgid "Visit the Armory to monitor traffic and ban or warn any user or bot"
 msgstr ""
 
-#: inc/contextual-help.php:210
+#: inc/contextual-help.php:212
 msgid "Visit the Banhammer Documentation"
 msgstr ""
 
-#: inc/contextual-help.php:395
+#: inc/contextual-help.php:397
 msgid ""
 "Visit the Help tab on the Settings page to learn more about auto-clearing "
 "the Armory."
 msgstr ""
 
-#: inc/contextual-help.php:211
+#: inc/contextual-help.php:213
 msgid "Visit the Installation Scrolls"
 msgstr ""
 
-#: inc/contextual-help.php:249
+#: inc/contextual-help.php:251
 msgid "Visit the Tower to manage banned items"
 msgstr ""
 
@@ -1792,11 +1807,11 @@ msgstr ""
 msgid "Visitor"
 msgstr ""
 
-#: inc/tower-ajax.php:127 inc/tower-display.php:45 inc/armory-ajax.php:543
+#: inc/armory-ajax.php:543 inc/tower-ajax.php:127 inc/tower-display.php:45
 msgid "Warn"
 msgstr ""
 
-#: inc/contextual-help.php:591
+#: inc/contextual-help.php:593
 msgid ""
 "Warn &ndash; target is flagged with orange color and allowed access to your "
 "site"
@@ -1810,7 +1825,7 @@ msgstr ""
 msgid "Warn target"
 msgstr ""
 
-#: inc/contextual-help.php:153
+#: inc/contextual-help.php:155
 msgid "Warn, Ban, Restore, or Whitelist any target"
 msgstr ""
 
@@ -1822,7 +1837,7 @@ msgstr ""
 msgid "Warned"
 msgstr ""
 
-#: banhammer.php:335
+#: banhammer.php:334
 msgid "Warning:"
 msgstr ""
 
@@ -1832,11 +1847,11 @@ msgid ""
 "Visit the Help tab."
 msgstr ""
 
-#: inc/contextual-help.php:376
+#: inc/contextual-help.php:378
 msgid "Welcome to the Banhammer Armory!"
 msgstr ""
 
-#: inc/contextual-help.php:521
+#: inc/contextual-help.php:523
 msgid "Welcome to the Banhammer Tower!"
 msgstr ""
 
@@ -1846,49 +1861,49 @@ msgid ""
 "Visit the Help tab."
 msgstr ""
 
-#: inc/contextual-help.php:43
+#: inc/contextual-help.php:45
 msgid "Well, there are several ways to go about it."
 msgstr ""
 
-#: inc/contextual-help.php:616
+#: inc/contextual-help.php:618
 msgid "When enabled, sounds are played whenever an action button is clicked. "
 msgstr ""
 
-#: inc/contextual-help.php:478
+#: inc/contextual-help.php:480
 msgid ""
 "When enabled, the sounds will be played whenever an action button is clicked."
 " "
 msgstr ""
 
-#: inc/contextual-help.php:383
+#: inc/contextual-help.php:385
 msgid ""
 "When someone visits your site, a new entry will be logged and displayed in "
 "the Armory."
 msgstr ""
 
-#: inc/contextual-help.php:155
+#: inc/contextual-help.php:157
 msgid "Whitelist, restore, warn or ban any target"
 msgstr ""
 
-#: inc/contextual-help.php:114
+#: inc/contextual-help.php:116
 msgid "Whoops! How do I get back in?"
 msgstr ""
 
-#: inc/contextual-help.php:88
+#: inc/contextual-help.php:90
 msgid "With great power.."
 msgstr ""
 
-#: inc/contextual-help.php:220
+#: inc/contextual-help.php:222
 msgid "WordPress developer"
 msgstr ""
 
-#: inc/contextual-help.php:117
+#: inc/contextual-help.php:119
 msgid ""
 "Worst-case scenario say you accidentally ban yourself. As site admin, it is "
 "easy to restore access. Follow these steps:"
 msgstr ""
 
-#: banhammer.php:341 banhammer.php:366
+#: banhammer.php:340 banhammer.php:367
 msgid "WP Admin Area"
 msgstr ""
 
@@ -1906,8 +1921,8 @@ msgstr ""
 msgid "WP Plugin Banhammer: file_get_contents() failed."
 msgstr ""
 
-#: inc/tower-ajax.php:92 inc/tower-display.php:62 inc/armory-ajax.php:443 
-#: inc/armory-ajax.php:473
+#: inc/armory-ajax.php:443 inc/armory-ajax.php:473 inc/tower-ajax.php:92 
+#: inc/tower-display.php:62
 msgid "WP User"
 msgstr ""
 
@@ -1920,11 +1935,11 @@ msgstr ""
 msgid "You are banned."
 msgstr ""
 
-#: inc/contextual-help.php:387
+#: inc/contextual-help.php:389
 msgid "You can manage all banned and warned items in the Tower."
 msgstr ""
 
-#: inc/contextual-help.php:234
+#: inc/contextual-help.php:236
 msgid "You shall not pass!"
 msgstr ""
 
@@ -1936,6 +1951,6 @@ msgstr ""
 msgid "Øks"
 msgstr ""
 
-#: banhammer.php:319
+#: banhammer.php:318
 msgid "★★★★★ rating&nbsp;&raquo;"
 msgstr ""
