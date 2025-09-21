@@ -98,7 +98,7 @@ function banhammer_abort($options) {
 				
 				$get_key = end($get_key);
 				
-				if ($get_key === $key) {
+				if ($get_key === $key && current_user_can('manage_options')) {
 					
 					return true;
 					
