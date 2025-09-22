@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
 Tested up to: 6.8
-Stable tag: 3.4.8
-Version:    3.4.8
+Stable tag: 3.4.9
+Version:    3.4.9
 Requires PHP: 5.6.20
 Text Domain: banhammer
 Domain Path: /languages
@@ -325,6 +325,13 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 == Changelog ==
 
 If you like Banhammer, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/banhammer/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
+
+
+
+**3.4.9 (2025/09/22)**
+
+* Improves randomization for secret key and target key
+* Tests on WordPress 6.8
 
 
 **3.4.8 (2025/09/20)**

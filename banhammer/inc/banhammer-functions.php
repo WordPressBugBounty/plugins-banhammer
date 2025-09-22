@@ -331,9 +331,7 @@ function banhammer_get_secret_key($bytes, $context) {
 
 function banhammer_secret_key($bytes) {
 	
-	$chars = '1234567890abcdefghijklmnopqrstuvwxyz';
-	
-	$key = base64_encode(substr(md5($chars), 0, $bytes));
+	$key = wp_generate_password($bytes, false);
 	
 	return apply_filters('banhammer_secret_key', $key);
 	
@@ -400,9 +398,9 @@ function banhammer_is_positive_integer($str) {
 	
 }
 
-function banhammer_get_random_alphanumeric($limit = 32) {
+function banhammer_get_random_alphanumeric($bytes = 32) {
 	
-	return substr(base_convert(sha1(uniqid(mt_rand())), 16, 36), 0, $limit);
+	return wp_generate_password($bytes, false);
 	
 }
 

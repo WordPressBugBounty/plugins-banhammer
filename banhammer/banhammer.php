@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 6.8
-	Stable tag: 3.4.8
-	Version:    3.4.8
+	Stable tag: 3.4.9
+	Version:    3.4.9
 	Requires PHP: 5.6.20
 	Text Domain: banhammer
 	Domain Path: /languages
@@ -83,7 +83,7 @@ if (!class_exists('BanhammerWP')) {
 		
 		function constants() {
 			
-			if (!defined('BANHAMMER_VERSION')) define('BANHAMMER_VERSION', '3.4.8');
+			if (!defined('BANHAMMER_VERSION')) define('BANHAMMER_VERSION', '3.4.9');
 			if (!defined('BANHAMMER_REQUIRE')) define('BANHAMMER_REQUIRE', '4.7');
 			if (!defined('BANHAMMER_AUTHOR'))  define('BANHAMMER_AUTHOR',  'Jeff Starr');
 			if (!defined('BANHAMMER_NAME'))    define('BANHAMMER_NAME',    'Banhammer');
