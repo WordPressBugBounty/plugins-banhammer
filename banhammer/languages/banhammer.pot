@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 16:04+0000\n"
+"POT-Creation-Date: 2026-02-05 15:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid " (saved)"
 msgstr ""
 
-#: banhammer.php:365
+#: banhammer.php:364
 msgid " or higher, and has been deactivated! "
 msgstr ""
 
@@ -188,7 +188,7 @@ msgid ""
 "can do no harm. Just be careful about who/what you decide to ban!"
 msgstr ""
 
-#: banhammer.php:340
+#: banhammer.php:339
 msgid "and try again."
 msgstr ""
 
@@ -227,7 +227,7 @@ msgid "Ascend"
 msgstr ""
 
 #: inc/settings-reset.php:36
-msgid "at checkout. Sale ends 6/25/2025."
+msgid "at checkout. Sale ends 3/28/2026."
 msgstr ""
 
 #: inc/contextual-help.php:98
@@ -430,7 +430,7 @@ msgstr ""
 msgid "click here"
 msgstr ""
 
-#: banhammer.php:295
+#: banhammer.php:294
 msgid "Click here to rate and review this plugin on WordPress.org"
 msgstr ""
 
@@ -672,7 +672,7 @@ msgid ""
 "playing around to get a better idea of how everything works. "
 msgstr ""
 
-#: banhammer.php:161
+#: banhammer.php:160
 msgid "EXAMPLE ONLY: NOT A REAL IP ADDRESS!"
 msgstr ""
 
@@ -705,7 +705,7 @@ msgstr ""
 msgid "For more information, visit the Help tab in the Armory (Notes section)."
 msgstr ""
 
-#: banhammer.php:270
+#: banhammer.php:269
 msgid "Get Banhammer Pro!"
 msgstr ""
 
@@ -725,7 +725,7 @@ msgstr ""
 msgid "Gjallarhorn"
 msgstr ""
 
-#: banhammer.php:271
+#: banhammer.php:270
 msgid "Go&nbsp;Pro"
 msgstr ""
 
@@ -755,7 +755,7 @@ msgstr ""
 msgid "Hits"
 msgstr ""
 
-#: banhammer.php:290
+#: banhammer.php:289
 msgid "Homepage"
 msgstr ""
 
@@ -860,10 +860,6 @@ msgid ""
 "lightweight, fast, and easy on resources."
 msgstr ""
 
-#: inc/contextual-help.php:191
-msgid "Introduction"
-msgstr ""
-
 #: inc/banhammer-functions.php:141
 msgid "Invalid IP Address"
 msgstr ""
@@ -903,7 +899,7 @@ msgstr ""
 msgid "Learn more &amp; get Banhammer Pro at Plugin Planet&nbsp;&raquo;"
 msgstr ""
 
-#: banhammer.php:314
+#: banhammer.php:313
 msgid "Like Banhammer? Give it a"
 msgstr ""
 
@@ -1130,7 +1126,7 @@ msgstr ""
 msgid "Please be careful not to ban yourself when using Banhammer. "
 msgstr ""
 
-#: banhammer.php:338 banhammer.php:366
+#: banhammer.php:337 banhammer.php:365
 msgid "Please return to the"
 msgstr ""
 
@@ -1140,7 +1136,7 @@ msgid ""
 "temporary. "
 msgstr ""
 
-#: banhammer.php:289
+#: banhammer.php:288
 msgid "Plugin Homepage"
 msgstr ""
 
@@ -1175,7 +1171,7 @@ msgstr ""
 msgid "Pro Version"
 msgstr ""
 
-#: banhammer.php:336
+#: banhammer.php:335
 msgid ""
 "Pro version of Banhammer currently active. Free and Pro versions cannot be "
 "activated at the same time. "
@@ -1217,7 +1213,7 @@ msgstr ""
 msgid "Quick Tour"
 msgstr ""
 
-#: banhammer.php:296
+#: banhammer.php:295
 msgid "Rate this plugin"
 msgstr ""
 
@@ -1283,7 +1279,7 @@ msgstr ""
 msgid "Request Method"
 msgstr ""
 
-#: banhammer.php:364
+#: banhammer.php:363
 msgid "requires WordPress "
 msgstr ""
 
@@ -1370,7 +1366,7 @@ msgstr ""
 msgid "Server Response"
 msgstr ""
 
-#: banhammer.php:261 inc/contextual-help.php:275 inc/settings-display.php:13 
+#: banhammer.php:260 inc/contextual-help.php:275 inc/settings-display.php:13 
 #: inc/settings-display.php:13
 msgid "Settings"
 msgstr ""
@@ -1450,7 +1446,7 @@ msgstr ""
 msgid "Some general notes"
 msgstr ""
 
-#: banhammer.php:383 banhammer.php:389
+#: banhammer.php:418 banhammer.php:424
 msgid "Sorry, pal!"
 msgstr ""
 
@@ -1464,10 +1460,6 @@ msgstr ""
 
 #: inc/contextual-help.php:476 inc/contextual-help.php:613
 msgid "Sound Effects!"
-msgstr ""
-
-#: inc/settings-reset.php:31
-msgid "Spring Sale!"
 msgstr ""
 
 #: inc/armory-ajax.php:769
@@ -1504,7 +1496,7 @@ msgid "Support Banhammer!"
 msgstr ""
 
 #: inc/settings-reset.php:32
-msgid "Take 30% OFF any of our"
+msgid "Take 20% OFF any of our"
 msgstr ""
 
 #: inc/settings-reset.php:51
@@ -1687,7 +1679,7 @@ msgstr ""
 msgid "to monitor traffic and ban some enemies. Or"
 msgstr ""
 
-#: banhammer.php:367
+#: banhammer.php:366
 msgid "to upgrade WordPress and try again."
 msgstr ""
 
@@ -1837,8 +1829,12 @@ msgstr ""
 msgid "Warned"
 msgstr ""
 
-#: banhammer.php:334
+#: banhammer.php:333
 msgid "Warning:"
+msgstr ""
+
+#: inc/contextual-help.php:191
+msgid "Welcome"
 msgstr ""
 
 #: inc/armory-display.php:37
@@ -1903,7 +1899,7 @@ msgid ""
 "easy to restore access. Follow these steps:"
 msgstr ""
 
-#: banhammer.php:340 banhammer.php:367
+#: banhammer.php:339 banhammer.php:366
 msgid "WP Admin Area"
 msgstr ""
 
@@ -1951,6 +1947,10 @@ msgstr ""
 msgid "Øks"
 msgstr ""
 
-#: banhammer.php:318
+#: banhammer.php:317
 msgid "★★★★★ rating&nbsp;&raquo;"
+msgstr ""
+
+#: inc/settings-reset.php:31
+msgid "❄️ Winter Sale!"
 msgstr ""

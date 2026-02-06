@@ -76,7 +76,7 @@ function banhammer_aux() {
 		
 		$saved = $update ? esc_attr__(' (saved)', 'banhammer') : '';
 		
-		$url = 'https://gwhois.org/'. $ip .'+dns';
+		$url = 'https://whatismyipaddress.com/ip/'. $ip;
 		
 		$link = '<a target="_blank" rel="noopener noreferrer" href="'. esc_url($url) .'">'. esc_html($host) .'</a>'. $saved;
 		
@@ -663,7 +663,7 @@ function banhammer_armory_host($host, $ip, $id) {
 		
 	} else {
 		
-		$url = 'https://gwhois.org/'. $ip .'+dns';
+		$url = 'https://whatismyipaddress.com/ip/'. $ip;
 		
 		$title = esc_attr__('Click link for whois', 'banhammer');
 		

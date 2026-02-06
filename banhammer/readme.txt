@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
-Tested up to: 6.8
-Stable tag: 3.4.9
-Version:    3.4.9
+Tested up to: 6.9
+Stable tag: 3.5.1
+Version:    3.5.1
 Requires PHP: 5.6.20
 Text Domain: banhammer
 Domain Path: /languages
@@ -23,13 +23,13 @@ Monitor traffic and ban unwanted visitors. Block any user or IP address so they 
 
 == Description ==
 
-> Banhammer: Protect your site against enemy hordes!
+> ⚡ Banhammer: Protect your site against enemy hordes!
 
 Banhammer gives you full control over who and what may access your site. Visit the Armory to monitor traffic and review suspicious visitors. If you find some user or bot that is causing problems, you can ban them with a click. Or, if you just want to keep an eye on someone, you can flag them with a warning. Any banned users will be denied access to your site, until you restore access via the Tower. Check out the video and screenshots to get a better idea of how it works.
 
 https://youtu.be/0t4qBH0TuW0
 
-> Important: Not yet compatible with WP Multisite!
+> 👉 Important: Not yet compatible with WP Multisite!
 
 **Core Features**
 
@@ -72,9 +72,23 @@ https://youtu.be/0t4qBH0TuW0
 
 Banhammer is perfect for site owners, admins, and developers who want to keep an eye on traffic and block any unwanted visitors. It is a simple, flexible, and powerful security solution. Perfect for the best WordPress sites.
 
+**Exclusive Features in Pro Version**
+
+* Ban based on URI request, referrer, or user agent
+* Whitelist any IP address or user agent
+* View cookies, POST data, and FILES data
+* Email Alerts for banned & warned requests
+* Display custom message to each banned target
+* Add private notes to warned/banned targets
+* Customize target strings for user agents, IPs, etc.
+* Disable logging of banned, warned, and whitelisted targets
+* Smart bot detection
+* Paged results in Tower
+* User avatars in Tower
+
 For complete documentation, visit the Help tab on any Banhammer screen.
 
-_+ [Banhammer Pro now available&nbsp;&raquo;](https://plugin-planet.com/banhammer-pro/)_
+> ⚡ [Banhammer Pro now available&nbsp;&raquo;](https://plugin-planet.com/banhammer-pro/)
 
 
 **Privacy**
@@ -100,7 +114,7 @@ I develop and maintain this free plugin with love for the WordPress community. T
 
 And/or purchase one of my premium WordPress plugins:
 
-* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Super fast WordPress firewall
+* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Blazing fast WordPress firewall
 * [Blackhole Pro](https://plugin-planet.com/blackhole-pro/) - Automatically block bad bots
 * [Banhammer Pro](https://plugin-planet.com/banhammer-pro/) - Monitor traffic and ban the bad guys
 * [GA Google Analytics Pro](https://plugin-planet.com/ga-google-analytics-pro/) - Connect WordPress to Google Analytics
@@ -137,7 +151,7 @@ Before installing, make sure your server has either `cURL` or `file_get_contents
 3. Visit the Armory to monitor traffic and ban/warn any unwanted visitors
 4. Visit the Tower to manage any banned/warned targets
 
-[More info on installing WP plugins](https://wordpress.org/support/article/managing-plugins/#installing-plugins)
+[More info on installing WP plugins](https://wordpress.org/documentation/article/manage-plugins/#installing-plugins-1)
 
 
 **Caching Plugins**
@@ -270,7 +284,7 @@ Audio used in promos
 
 **Uninstalling**
 
-This plugin cleans up after itself. All plugin options and collected data will be removed from your database when the plugin is uninstalled via the Plugins screen.
+This plugin cleans up after itself. All plugin settings and data will be removed from the WordPress database when the plugin is deleted via the WP Plugins screen.
 
 
 **Like the plugin?**
@@ -281,18 +295,11 @@ If you like Banhammer, please take a moment to [give a 5-star rating](https://wo
 
 == Upgrade Notice ==
 
-To upgrade this plugin, remove the old version and replace with the new version. Or just click "Update" from the Plugins screen and let WordPress do it for you automatically.
-
-Note: uninstalling the plugin from the WP Plugins screen results in the removal of all options and data from the WordPress database. 
+Visit the WordPress Plugins screen, locate the plugin, and click "Update" :)
 
 
 
 == Frequently Asked Questions ==
-
-**How is this different than the other "Ban Hammer" plugin?**
-
-The plugin [Ban Hammer](https://wordpress.org/plugins/ban-hammer/) by Mika Epstein ([Ipstenu](https://profiles.wordpress.org/ipstenu)) is the original "ban-hammer" plugin. It is a great plugin that prevents unwanted users from registering with your site. My plugin [Banhammer](https://wordpress.org/plugins/banhammer/) monitors traffic and enables you to ban any unwanted WP users or IP addresses. They are similar in effect, but focus on different aspects of site access. Btw, huge Thank You to Mika for being so awesome with sharing the "ban hammer" space :)
-
 
 **Will this plugin slow down my site?**
 
@@ -327,30 +334,13 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 If you like Banhammer, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/banhammer/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
 
+**3.5.1 (2026/02/04)**
 
-**3.4.9 (2025/09/22)**
-
-* Improves randomization for secret key and target key
-* Tests on WordPress 6.8
-
-
-**3.4.8 (2025/09/20)**
-
-* Adds admin check for internal armory requests
-* Tests on WordPress 6.8
-
-
-**3.4.7 (2025/03/24)**
-
-* Removes `load_i18n()` function
-* Fixes bug with `check_banhammer()` function
-* Adds uninstall option `banhammer-dismiss-notice`
-* Fixes PHP Notice, re: `_load_textdomain_just_in_time`
-* Bumps minimum required WP version
-* Updates Help tab information
 * Updates plugin settings page
+* Improves readme.txt documentation
 * Generates new language template
-* Tests on WordPress 6.8
+* Tests on PHP 8.4 and 8.5
+* Tests on WordPress 6.9 + 7.0 (nightly)
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/banhammer.txt](https://plugin-planet.com/wp/changelog/banhammer.txt)

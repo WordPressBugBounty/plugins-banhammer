@@ -188,7 +188,7 @@ function banhammer_settings_contextual_help() {
 		array(
 			
 			'id' => 'banhammer-intro',
-			'title' => esc_attr__('Introduction', 'banhammer'),
+			'title' => esc_attr__('Welcome', 'banhammer'),
 			'content' => 
 				'<p><strong>'. esc_html__('Banhammer: Defend. Protect. Secure.', 'banhammer') .'</strong></p>'.
 				
